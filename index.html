@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Reservalo YA</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Registrate</h1>
+                <div class="social-container">
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Nombre" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Contraseña" />
+                <button>Enviar</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Bienvenido/a</h1>
+                <div class="avatar">
+                    <img src="img/AVATAR.svg" alt="avatar">
+                </div>
+                <span>Inicie session con su usuario y contraseña</span>
+                <input type="text" placeholder="Usuario" />
+                <input type="password" placeholder="Contraseña" />
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <button>Entrar</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <img src="img/LOGOCOLOR.svg" alt="logotipo">
+                    <p>Solicita tu cita previa y no hagas más cola</p>
+                    <button class="ghost" id="signIn">Entrar</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <img src="img/LOGOCOLOR.svg" alt="logotipo">
+                    <p>Una aplicación que te permite reservar en todos los negocios de tu ciudad.</p>
+                    <button class="ghost" id="signUp">Registrate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> Todos los derechos | reservados<i class="fa fa-heart-o" aria-hidden="true"></i> por <a href="https://cerojas.com" target="_blank">Carlos Rojas</a>
+        </p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
