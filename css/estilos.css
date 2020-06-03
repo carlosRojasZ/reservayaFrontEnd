@@ -93,6 +93,28 @@ input {
     padding: 12px 15px;
     margin: 8px 0;
     width: 100%;
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+form label {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form label input {
+    width: 8%;
+}
+
+form label span {
+    width: 92%;
+    text-align: left;
+    margin-left: 5px;
+    padding: 6px;
 }
 
 .container {
@@ -166,8 +188,7 @@ input {
 }
 
 .overlay {
-    background: #115983;
-    background: linear-gradient(to right, #77b6e0, #0080ff);
+    background: #0080ff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
@@ -230,10 +251,6 @@ footer {
 
 footer p {
     margin: 10px 0;
-}
-
-footer i {
-    color: red;
 }
 
 footer a {
